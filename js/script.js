@@ -20,4 +20,19 @@ $(document).ready(function() {
         'overlayShow'   :   false
     });
     
+    $('.show-map').click(function(e) {
+      e.preventDefault()
+      $('.map').animate({
+        left: '+=10000'
+      });
+    });
+
+    $('.hide-map').click(function(e) {
+      e.preventDefault();
+        $('.map').animate({
+        left: '-=10000'
+        });
+    });
+
+
 });
