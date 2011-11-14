@@ -27,18 +27,14 @@ body {background:transparent url(../images/bg.png) repeat 0 0;}
 img {border:none;}
 
 h1 {
-    font-family:TradeGothic;
-    font-size:32px;
+    font-family:trebuchet MS;
+    font-size:27px;
     text-align:right;
     color:black;
     margin-bottom:0px;
     margin-top:0px;
     text-transform:uppercase;
     }
-
-@-moz-document url-prefix() {
-   h1 {font-size:27px;font-family:trebuchet MS;}
-}
 
 span.light {font-family:Lato;font-weight:100;text-transform:lowercase;}
     
@@ -110,10 +106,7 @@ li.social:hover ul#twitter_update_list {display:block;}
 .sample {height:173px;background:#f2f2f2;margin-bottom:40px;box-shadow:inset 0 0 10px rgba(0,0,0,0.3);border-radius:1em;}
 .sample:hover {box-shadow:0 5px 10px rgba(0,0,0,0.5);}
 .work-hover {display:none;background:rgba(255,255,255,0.9);}
-.work-hover h1 {text-align:center;margin-top:20px;padding-top:9px;border-top:3px double #999999;border-bottom:3px double #999999;}
-@-moz-document url-prefix() {
-   .work-hover h1 {padding-top:4px;}
-}
+.work-hover h1 {text-align:center;margin-top:20px;padding-top:4px;border-top:3px double #999999;border-bottom:3px double #999999;}
 .one:hover .work-hover, .two:hover .work-hover, .three:hover .work-hover, .four:hover .work-hover, .five:hover .work-hover, .six:hover .work-hover, .seven:hover .work-hover, .eight:hover .work-hover, .nine:hover .work-hover, .ten:hover .work-hover, .eleven:hover .work-hover, .twelve:hover .work-hover {display:block;}
 .one {background:transparent url(../images/1.png) no-repeat 0 0;}
 .two {height:173px;}
@@ -160,14 +153,8 @@ li.social:hover ul#twitter_update_list {display:block;}
 span.emphasis {color:#F708A8;}
 .banner {float:left;margin-bottom:50px;padding-top:12px;border-top: 3px double #999999;border-bottom: 3px double #999999;}
 .banner p {text-align:left;font-weight:normal;color:#333333;font-size:18px;}
-.banner h1 {font-size:24px;margin-top:0;margin-bottom:0px;font-family:TradeGothic;text-transform:uppercase;text-align:left;}
-@-moz-document url-prefix() {
-    .banner h1 {font-size:21px;margin-top:-3px;font-family:trebuchet MS;}
-}
-.banner h2 {font-size:53px;margin-top:0;margin-bottom:0px;font-family:TradeGothic;text-transform:uppercase;}
-@-moz-document url-prefix() {
-    .banner h2 {font-size:46px;margin-top:-5px;font-family:trebuchet MS;}
-}
+.banner h1 {font-size:21px;margin-top:-3px;margin-bottom:0px;font-family:trebuchet MS;text-transform:uppercase;text-align:left;}
+.banner h2 {font-size:46px;margin-top:-5px;margin-bottom:0px;font-family:trebuchet MS;text-transform:uppercase;}
 .banner h3 {font-family:Lato;font-size:33px;font-weight:100;margin:-12px 0 0 20px;}
 .banner h4 {font-family:Lato;font-size:47px;font-weight:100;margin:-12px 0 0 20px;}
 .lets-be-friends {margin-bottom:50px;}
@@ -178,19 +165,14 @@ span.emphasis {color:#F708A8;}
 .devices li {font-family:Lato;font-weight:300;}
 li.first {text-align:right;font-weight:300;text-transform:uppercase;}
 .devices h3 {font-family:Lato;font-size:24px;font-weight:100;margin-top:0px;margin-bottom:30px;}
-@-moz-document url-prefix() {
-   .dark {padding-top:10px;padding-bottom:10px;}    
-}
+.dark {padding-top:10px;padding-bottom:10px;}
 
 /* contact */
 
 .google-map {opacity:0.8;}
 .contact {margin-bottom:100px;}
 .contact-image {float:left;text-align:center;}
-.contact-image a {color:#F708A8;font-family:TradeGothic;font-size:24px;font-weight:bold;text-transform:uppercase;}
-@-moz-document url-prefix() {
-   .contact-image a {font-size:23px;font-family:trebuchet MS;}
-}
+.contact-image a {color:#F708A8;font-family:trebuchet MS;font-size:23px;font-weight:bold;text-transform:uppercase;}
 .contact-image:hover a {color:#990568;}
 .contact-image p {text-align:center;color:#666666;font-family:Lato;font-weight:300;}
 .contact-image img {margin-bottom:30px;}
@@ -209,10 +191,7 @@ img.owl {margin-top:26px;margin-bottom:4px;}
 /* durer */
 .durer {float:left;}
 .durer p {color:#666666;font-family:Lato;font-weight:300;}
-.durer a {font-family: TradeGothic; font-size: 32px; text-align: right; color: black; margin-bottom: 0px; margin-top: 0px; text-transform: uppercase;font-weight:bold;}
-@-moz-document url-prefix() {
-   .durer a {font-size:27px;font-family:trebuchet MS;}
-}
+.durer a {font-family: trebuchet MS; font-size: 27px; text-align: right; color: black; margin-bottom: 0px; margin-top: 0px; text-transform: uppercase;font-weight:bold;}
 .durer a:hover {color:#F708A8;}
 
 /* clearfix */
