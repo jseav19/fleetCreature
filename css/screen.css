@@ -86,6 +86,10 @@ a:hover {
 
 a.none, a.none:visited, a.none:active, a.none:hover {color:inherit;font-family:inherit;font-size:inherit;}
 
+ul {
+    list-style: none;
+}
+
 
 /* nav */
 
@@ -115,7 +119,6 @@ li.social:hover ul#twitter_update_list {display:block;}
 .four {background:transparent url(../images/4.png) no-repeat 0 0;}
 .five {background:transparent url(../images/5.png) no-repeat 0 0;}
 .six {background:transparent url(../images/drawing2.png) no-repeat -13px -39px;}
-.six:hover {background:transparent url(../images/sleep.png) no-repeat -20px -50px;cursor:default;box-shadow:0 0 0 black;}
 .seven {background:transparent url(../images/7.png) no-repeat 0 0;}
 .eight {background:transparent url(../images/8.png) no-repeat 0 0;}
 .nine {background:transparent url(../images/9.png) no-repeat 0 0;}
@@ -142,11 +145,10 @@ li.social:hover ul#twitter_update_list {display:block;}
 
 /* about */
 
-.main-about {margin-bottom:600px;margin-top:-155px;}
-/* .other-interests {background:transparent url(../images/beetle_small.png) no-repeat 4px 147px;height:300px;} */
+.main-about {margin-top:-155px;border-bottom:4px double #cccccc;padding-bottom:50px;}
 .ultimate {background:#f2f2f2 url(../images/ultimate.png) no-repeat 0 -47px;}
 .travel {background:#f2f2f2 url(../images/travel.png) no-repeat 0 0;}
-.bio {background:#f2f2f2 url(../images/bio.png) no-repeat 0 0;}
+.sewing {background:#f2f2f2 url(../images/sewing.png) no-repeat 0 0;}
 .family {background:#f2f2f2 url(../images/family.png) no-repeat 0 -15px;}
 .other-interests .sample {box-shadow:inset 0 0 10px 2px rgba(0,0,0,0.6);}
 .other-interests p {text-align:center;margin-top:-10px;color:#666666;font-family:Lato;font-weight:300;}
@@ -167,10 +169,30 @@ li.first {text-align:right;font-weight:300;text-transform:uppercase;}
 .devices h3 {font-family:Lato;font-size:24px;font-weight:100;margin-top:0px;margin-bottom:30px;}
 .dark {padding-top:10px;padding-bottom:10px;}
 
+/* services */
+
+.services ul {margin-top: -20px;}
+.services h3 {font-weight: 300; margin-left: 10px;text-align: center;}
+.grey-block {border-radius: 1em; background: #EEEEEE; padding: 15px 10px 40px 40px !important; width: 150px; list-style-type: disc; margin-top: -10px !important;}
+.no-bullets {list-style: none; padding: 15px 10px 25px 20px !important; width: 170px;}
+.no-grey-back {margin-top: 11px !important; font-size: 13px; padding: 0 7px !important; text-align: center;}
+.top-margin {margin-top: 75px; margin-bottom: 15px; text-align: center;}
+.emailUs {background: transparent url(../images/emailUs.png) no-repeat 0 2px;}
+.emailUs a {margin: 0 0 5px 598px; color: #F708A8; font-size: 20px;}
+.emailUs a:hover {color: #990568;}
+
+/* crew */
+
+.alyssa {background:#f2f2f2 url(../images/alyssa.png) no-repeat 0 0;}
+.jesse {background:#f2f2f2 url(../images/jesse.png) no-repeat 0 0;}
+.sarah {background:#f2f2f2 url(../images/sarah.png) no-repeat 0 0;}
+.melanie {background:#f2f2f2 url(../images/melanie.png) no-repeat 0 0;}
+
+
 /* contact */
 
 .google-map {opacity:0.8;}
-.contact {margin-bottom:100px;}
+.contact {margin-bottom:45px;}
 .contact-image {float:left;text-align:center;}
 .contact-image a {color:#F708A8;font-family:trebuchet MS;font-size:23px;font-weight:bold;text-transform:uppercase;}
 .contact-image:hover a {color:#990568;}
@@ -189,10 +211,28 @@ img.owl {margin-top:26px;margin-bottom:4px;}
 .go-away a:hover{color:#a8a8a8;}
 
 /* durer */
-.durer {float:left;}
+.durer {float:left;margin-top:-12px;}
 .durer p {color:#666666;font-family:Lato;font-weight:300;}
-.durer a {font-family: trebuchet MS; font-size: 27px; text-align: right; color: black; margin-bottom: 0px; margin-top: 0px; text-transform: uppercase;font-weight:bold;}
+.durer a {font-family: trebuchet MS; font-size: 29px; text-align: right; color: black; margin-bottom: 0px; margin-top: 0px; text-transform: uppercase;font-weight:bold;}
 .durer a:hover {color:#F708A8;}
+
+/* proposal */
+
+.proposal .container {padding-left:0; width:920px;margin-bottom:100px;}
+.proposal ul {list-style-type: disc;}
+.home-link {position:fixed;right:-110px;top:50px;}
+.proposal .banner {margin-top:40px;margin-bottom:40px;padding-bottom:7px;}
+.proposal p {font-family:Lato;font-weight:300;text-align:left;margin-bottom:20px;font-size:18px;}
+.proposal li {font-family:Lato;font-weight:300;}
+.deliverables {border-radius:1em;background: #E2E2E2;width: 397px;padding-top: 9px;padding-bottom: 20px;}
+.proposal h3 {font-size: 23px;margin-top:-6px;}
+
+/* calendar */
+
+.calendar {border:3px double #999999;padding:10px;}
+.calendar a {color: #F708A8;}
+.calendar a:hover {color: #990568}
+.calendar p {color: #666666;margin-top: 17px;margin-bottom: 5px;}
 
 /* clearfix */
 
